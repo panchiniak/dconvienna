@@ -9,6 +9,7 @@ module:
   file: 0
   filter: 0
   history: 0
+  masquerade: 0
   mysql: 0
   node: 0
   options: 0

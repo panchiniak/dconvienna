@@ -11,6 +11,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core": "^10.4",
         "drupal/core-composer-scaffold": "^10",
+        "drupal/masquerade": "^2.0",
         "drupal/private_message": "^3.0",
         "drupal/proc": "^10.1",
         "drush/drush": "^12"
