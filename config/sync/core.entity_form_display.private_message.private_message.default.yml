@@ -1,0 +1,57 @@
+uuid: 192c50bf-6945-44e8-a66e-a360f5830570
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.private_message.private_message.field_attachment
+  module:
+    - private_message
+    - proc
+    - text
+id: private_message.private_message.default
+targetEntityType: private_message
+bundle: private_message
+mode: default
+content:
+  field_attachment:
+    type: proc_entity_reference_widget
+    weight: -98
+    region: content
+    settings:
+      size: 60
+      proc_field_recipients_to_field: members
+      proc_field_recipients_cc_field: ''
+      proc_field_recipients_manual_fetcher: ''
+      proc_field_recipients_fetcher_endpoint: ''
+      proc_field_recipients_fetcher_endpoint_filter: ''
+      proc_field_encrypt_button_label: ''
+      proc_field_decrypt_button_label: ''
+      proc_field_recipients_fetcher_endpoint_filter_type: '0'
+      proc_field_mode: '1'
+      proc_field_input_mode: '0'
+      proc_field_decryption_mode: '1'
+      proc_allow_password_caching: '2'
+      proc_trigger_format: '0'
+      proc_master_field_submit_id: ''
+      proc_relabeling_pattern: '0'
+      proc_re_encryption_plugin: '0'
+      proc_decryption_trigger_fields: 0
+      match_operator: CONTAINS
+      match_limit: 10
+      placeholder: ''
+    third_party_settings: {  }
+  members:
+    weight: -100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: text_textarea
+    weight: -99
+    region: content
+    settings:
+      rows: 5
+      placeholder: Message
+    third_party_settings: {  }
+    label: hidden
+hidden: {  }

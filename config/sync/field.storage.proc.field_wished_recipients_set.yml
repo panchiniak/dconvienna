@@ -1,0 +1,20 @@
+uuid: 9cf4023c-ebb8-44ee-aefb-d3e939596f1e
+langcode: en
+status: false
+dependencies:
+  module:
+    - proc
+    - user
+id: proc.field_wished_recipients_set
+field_name: field_wished_recipients_set
+entity_type: proc
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

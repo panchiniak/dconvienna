@@ -1,0 +1,22 @@
+uuid: 1866e702-16ba-474b-bfea-35888d3010c9
+langcode: en
+status: false
+dependencies:
+  config:
+    - field.storage.proc.field_wished_recipients_set
+  module:
+    - proc
+id: proc.proc.field_wished_recipients_set
+field_name: field_wished_recipients_set
+entity_type: proc
+bundle: proc
+label: 'Wished set of recipients'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings: {  }
+field_type: entity_reference

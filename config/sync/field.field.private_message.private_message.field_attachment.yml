@@ -1,0 +1,28 @@
+uuid: d6eacf15-c04f-486f-918e-18e2154a02bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.private_message.field_attachment
+  module:
+    - private_message
+    - proc
+id: private_message.private_message.field_attachment
+field_name: field_attachment
+entity_type: private_message
+bundle: private_message
+label: Attachment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:proc'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: proc_entity_reference_field

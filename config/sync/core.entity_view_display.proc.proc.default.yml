@@ -1,0 +1,73 @@
+uuid: c70894c3-00d6-47db-9bde-a618b6f72d34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.proc.proc.field_wished_recipients_set
+  module:
+    - options
+    - proc
+    - user
+id: proc.proc.default
+targetEntityType: proc
+bundle: proc
+mode: default
+content:
+  armored:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -6
+    region: content
+  field_recipients_set:
+    type: author
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_wished_recipients_set:
+    type: entity_reference_label
+    label: 'Wished set of recipients'
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+    entity_type: proc
+    bundle: proc
+  label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -6
+    region: content
+  status:
+    type: boolean
+    label: visible
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  type:
+    type: list_default
+    label: visible
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  user_id:
+    type: author
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+hidden: {  }

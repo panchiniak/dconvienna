@@ -1,0 +1,20 @@
+uuid: e63d5140-b7cf-438e-a7a9-aa9809c5fc1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+    - proc
+id: private_message.field_attachment
+field_name: field_attachment
+entity_type: private_message
+type: proc_entity_reference_field
+settings:
+  target_type: proc
+module: proc
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
