@@ -1,0 +1,11 @@
+uuid: 60a0515c-69fc-4d32-8082-83308446e2b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+id: private_message_ban.token
+label: Token
+description: ''
+targetEntityType: private_message_ban
+cache: true

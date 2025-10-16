@@ -1,0 +1,11 @@
+uuid: 4977fad0-78fe-4a36-9825-ee84e2374bd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - proc
+id: proc.token
+label: Token
+description: ''
+targetEntityType: proc
+cache: true

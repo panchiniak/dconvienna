@@ -1,0 +1,11 @@
+uuid: 3c0aca49-62bb-4f6e-9a05-a2fcbf8fde77
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+id: private_message.token
+label: Token
+description: ''
+targetEntityType: private_message
+cache: true

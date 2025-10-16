@@ -9,7 +9,7 @@ services:
       - ${PWD}:${PWD}
       # - $HOME/.composer/.auth.json:$HOME/.composer/.auth.json
     environment:
-      DOCUMENT_ROOT: ${PWD}
+      DOCUMENT_ROOT: ${PWD}/web/
       # By leaving these variables empty Docker Compose will set them to their host values.
       NEXTCLOUD_USER:
       NEXTCLOUD_PASS:

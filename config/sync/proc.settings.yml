@@ -1,8 +1,6 @@
-_core:
-  default_config_hash: 2Cd0zc1uGFsjCRbVz4CAsASPu0dHhh-0opBShg8uDvw
 proc-stream-wrapper: 'private://proc'
 proc-enable-stream-wrapper: 1
-proc-rsa-key-size: '2048'
+proc-rsa-key-size: '4096'
 proc-file-entity-max-filesize: ''
 proc-file-block-size: ''
 proc-enable-block-size: 0
@@ -11,9 +9,13 @@ proc-encrypt-button-label-filled-field: ''
 proc-decrypt-button-label: Decrypt
 proc-encrypt-button-class: 'button encrypt-button'
 proc-allow-password-cache-fields: 0
-proc-suppress-encryption-success-msg: 0
-proc-suppress-decrypt-link: 0
 proc-auto-filter-recipients: 1
+proc-suppress-decrypt-link: 0
+proc-suppress-encryption-success-msg: 0
 proc-single-value-remove-button: 1
 proc-single-value-remove-button-label: ''
 proc-file-enable-autocomplete: 0
+_core:
+  default_config_hash: 2Cd0zc1uGFsjCRbVz4CAsASPu0dHhh-0opBShg8uDvw
+proc-max-files-update: ''
+proc-max-size-update: ''
