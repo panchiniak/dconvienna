@@ -5,6 +5,7 @@ module:
   admin_toolbar: 0
   autocomplete_deluxe: 0
   block: 0
+  block_content: 0
   breakpoint: 0
   contact: 0
   contact_storage: 0
@@ -16,13 +17,19 @@ module:
   file: 0
   filter: 0
   history: 0
+  image: 0
   masquerade: 0
+  media: 0
+  message: 0
+  message_notify: 0
   mysql: 0
   node: 0
   options: 0
   page_cache: 0
+  path: 0
   path_alias: 0
   private_message: 0
+  private_message_notify: 0
   proc: 0
   system: 0
   text: 0

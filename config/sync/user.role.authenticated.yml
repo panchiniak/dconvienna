@@ -7,6 +7,7 @@ dependencies:
     - node.type.general_gallery
   module:
     - filter
+    - media
     - node
     - private_message
     - proc
@@ -25,6 +26,7 @@ permissions:
   - 'create general_gallery content'
   - 'use private messaging system'
   - 'use text format guidelines_format'
+  - 'view media'
   - 'view own unpublished content'
   - 'view proc entity'
   - 'view user email addresses'

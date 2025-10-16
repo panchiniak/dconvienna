@@ -1,0 +1,28 @@
+uuid: ccaa0bae-87be-4965-8a27-dcd5f1d9a7b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+    - system
+  theme:
+    - olivero
+id: olivero_privatemessageinbox
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: private_message_inbox_block
+settings:
+  id: private_message_inbox_block
+  label: 'Private Message Inbox'
+  label_display: '0'
+  provider: private_message
+  thread_count: 5
+  ajax_load_count: 5
+  ajax_refresh_rate: 15
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /inbox

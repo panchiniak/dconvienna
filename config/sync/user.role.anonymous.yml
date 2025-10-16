@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - media
     - node
     - private_message
     - proc
@@ -19,6 +20,7 @@ permissions:
   - 'access user profiles'
   - 'add proc entity'
   - 'use private messaging system'
+  - 'view media'
   - 'view own unpublished content'
   - 'view proc entity'
   - 'view user email addresses'

@@ -1,0 +1,13 @@
+uuid: 9f17600d-8425-4b2e-9313-dfe4ad57e881
+langcode: en
+status: true
+dependencies:
+  module:
+    - message
+_core:
+  default_config_hash: uhACH_XKkZHCWXc_DdovxtfxI2sUKIFxn6Hnl7ZmQeU
+id: message.mail_body
+label: 'Notify - Email body'
+description: ''
+targetEntityType: message
+cache: true

@@ -8,7 +8,7 @@ proc-encrypt-button-label: Encrypt
 proc-encrypt-button-label-filled-field: ''
 proc-decrypt-button-label: Decrypt
 proc-encrypt-button-class: 'button encrypt-button'
-proc-allow-password-cache-fields: 0
+proc-allow-password-cache-fields: 1
 proc-auto-filter-recipients: 1
 proc-suppress-decrypt-link: 0
 proc-suppress-encryption-success-msg: 0
