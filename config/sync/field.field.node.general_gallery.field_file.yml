@@ -1,0 +1,28 @@
+uuid: 4fec155b-2bc5-4eff-b577-f74f65e39619
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.general_gallery
+  module:
+    - proc
+id: node.general_gallery.field_file
+field_name: field_file
+entity_type: node
+bundle: general_gallery
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:proc'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: proc_entity_reference_field

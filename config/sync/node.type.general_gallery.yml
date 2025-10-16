@@ -1,0 +1,11 @@
+uuid: b24dfb7f-a4f4-4e02-b059-bc73d3fdf221
+langcode: en
+status: true
+dependencies: {  }
+name: 'General Gallery'
+type: general_gallery
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

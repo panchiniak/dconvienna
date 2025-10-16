@@ -2,7 +2,10 @@ uuid: 632b75a8-1bd7-45bd-861b-8c5d5990a288
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.guidelines_format
   module:
+    - filter
     - node
     - private_message
     - proc
@@ -19,6 +22,7 @@ permissions:
   - 'add proc entity'
   - 'cancel account'
   - 'use private messaging system'
+  - 'use text format guidelines_format'
   - 'view own unpublished content'
   - 'view proc entity'
   - 'view user email addresses'

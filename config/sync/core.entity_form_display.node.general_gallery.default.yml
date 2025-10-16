@@ -1,0 +1,104 @@
+uuid: f4f5e175-30eb-4bd4-b180-4e1066cfe748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.general_gallery.body
+    - field.field.node.general_gallery.field_file
+    - field.field.node.general_gallery.field_recipient
+    - field.field.node.general_gallery.field_text
+    - node.type.general_gallery
+  module:
+    - autocomplete_deluxe
+    - proc
+id: node.general_gallery.default
+targetEntityType: node
+bundle: general_gallery
+mode: default
+content:
+  field_file:
+    type: proc_entity_reference_widget
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      proc_field_recipients_to_field: ''
+      proc_field_recipients_cc_field: ''
+      proc_field_recipients_manual_fetcher: '1'
+      proc_field_recipients_fetcher_endpoint: ''
+      proc_field_recipients_fetcher_endpoint_filter: ''
+      proc_field_encrypt_button_label: ''
+      proc_field_decrypt_button_label: ''
+      proc_field_recipients_fetcher_endpoint_filter_type: '0'
+      proc_field_mode: '1'
+      proc_field_input_mode: '0'
+      proc_field_decryption_mode: '1'
+      proc_allow_password_caching: '2'
+      proc_trigger_format: '0'
+      proc_master_field_submit_id: ''
+      proc_relabeling_pattern: '0'
+      proc_re_encryption_plugin: '0'
+      proc_decryption_trigger_fields: 0
+      match_operator: CONTAINS
+      match_limit: 10
+      placeholder: ''
+    third_party_settings: {  }
+  field_recipient:
+    type: autocomplete_deluxe
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      autocomplete_route_name: autocomplete_deluxe.autocomplete
+      size: 60
+      selection_handler: default
+      match_limit: 10
+      min_length: 0
+      delimiter: ''
+      not_found_message_allow: false
+      not_found_message: "The term '@term' will be added"
+      new_terms: false
+      no_empty_message: 'No terms could be found. Please type in order to add a new term.'
+    third_party_settings: {  }
+  field_text:
+    type: proc_entity_reference_widget
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      proc_field_recipients_to_field: ''
+      proc_field_recipients_cc_field: ''
+      proc_field_recipients_manual_fetcher: '1'
+      proc_field_recipients_fetcher_endpoint: ''
+      proc_field_recipients_fetcher_endpoint_filter: ''
+      proc_field_encrypt_button_label: ''
+      proc_field_decrypt_button_label: ''
+      proc_field_recipients_fetcher_endpoint_filter_type: '0'
+      proc_field_mode: '1'
+      proc_field_input_mode: '2'
+      proc_field_decryption_mode: '1'
+      proc_allow_password_caching: '2'
+      proc_trigger_format: '1'
+      proc_master_field_submit_id: ''
+      proc_relabeling_pattern: '0'
+      proc_re_encryption_plugin: '0'
+      proc_decryption_trigger_fields: 0
+      match_operator: CONTAINS
+      match_limit: 10
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

@@ -1,0 +1,23 @@
+uuid: 588c7f5b-3d33-4417-94af-30d3660d2f97
+langcode: en
+status: true
+dependencies:
+  module:
+    - token_filter
+name: 'Guidelines format'
+format: guidelines_format
+weight: 0
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: true
+    weight: 0
+    settings:
+      replace_empty: true

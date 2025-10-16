@@ -1,0 +1,11 @@
+uuid: 0d8dba60-d7ce-4663-8f70-368edcbfe40a
+langcode: en
+status: true
+dependencies: {  }
+name: Guidelines
+type: guidelines
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

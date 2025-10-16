@@ -1,0 +1,39 @@
+uuid: 2d27ed56-b589-41f0-9ef5-7d931bdf9032
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.general_gallery.body
+    - field.field.node.general_gallery.field_file
+    - field.field.node.general_gallery.field_recipient
+    - field.field.node.general_gallery.field_text
+    - node.type.general_gallery
+  module:
+    - proc
+    - user
+id: node.general_gallery.default
+targetEntityType: node
+bundle: general_gallery
+mode: default
+content:
+  field_file:
+    type: proc_entity_reference_armoured_formatter
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_text:
+    type: proc_entity_reference_armoured_formatter
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_recipient: true
+  links: true
+  private_message_link: true

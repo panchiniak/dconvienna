@@ -1,0 +1,20 @@
+uuid: ddcc1326-93df-4bc8-9cc4-7fd0cf05b7c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_recipient
+field_name: field_recipient
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

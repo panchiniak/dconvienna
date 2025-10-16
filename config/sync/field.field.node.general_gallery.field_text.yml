@@ -1,0 +1,28 @@
+uuid: 71645aa3-8270-4017-9554-4e90d00ceef6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text
+    - node.type.general_gallery
+  module:
+    - proc
+id: node.general_gallery.field_text
+field_name: field_text
+entity_type: node
+bundle: general_gallery
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:proc'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: proc_entity_reference_field
