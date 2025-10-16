@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - filter.format.guidelines_format
+    - node.type.general_gallery
   module:
     - filter
     - node
@@ -21,6 +22,7 @@ permissions:
   - 'access user profiles'
   - 'add proc entity'
   - 'cancel account'
+  - 'create general_gallery content'
   - 'use private messaging system'
   - 'use text format guidelines_format'
   - 'view own unpublished content'

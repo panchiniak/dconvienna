@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - node
     - private_message
     - proc
     - system
@@ -14,7 +15,10 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access content overview'
   - 'access user profiles'
   - 'add proc entity'
   - 'use private messaging system'
+  - 'view own unpublished content'
+  - 'view proc entity'
   - 'view user email addresses'
